@@ -11,6 +11,5 @@ function update-sys-all {
     & pwsh -NoProfile -ExecutionPolicy Bypass -File "C:\Users\gemim\projects\rust\scripts\sysup-all.ps1" @args
 }
 
-
-
+Set-Alias sysup-all update-sys-all
 ```
